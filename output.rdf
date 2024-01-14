@@ -1,0 +1,117 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<your-namespace-hereCulturelEquality> a <your-namespace-hereClasses> ;
+    rdfs:label "Culturel&Equality" ;
+    rdfs:comment "Represents the combined concept of Culture and Equality in various contexts." ;
+    <your-namespace-herehasAspect> <your-namespace-hereCommunity>,
+        <your-namespace-hereCulture>,
+        <your-namespace-hereEquality>,
+        <your-namespace-hereTechnology> ;
+    <your-namespace-herehasSubclass> <your-namespace-hereAccessibility>,
+        <your-namespace-hereArts>,
+        <your-namespace-hereCommunicationsInfrastructure>,
+        <your-namespace-hereCommunityCenters>,
+        <your-namespace-hereCultureEvents>,
+        <your-namespace-hereDataAnalyticsSystems>,
+        <your-namespace-hereDiversity>,
+        <your-namespace-hereHeritage>,
+        <your-namespace-hereHistoricalArtifacts>,
+        <your-namespace-hereInclusion>,
+        <your-namespace-hereInstitutions>,
+        <your-namespace-hereIotDevices>,
+        <your-namespace-hereIotSensors>,
+        <your-namespace-hereOrganizations>,
+        <your-namespace-hereRezident>,
+        <your-namespace-hereSensors>,
+        <your-namespace-hereSocialJustice>,
+        <your-namespace-hereSocialPrograms>,
+        <your-namespace-hereTraditions> .
+
+<your-namespace-hereAccessibility> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Accessibility" ;
+    rdfs:comment "A structure emphasizing equal and accessible access to diverse resources." .
+
+<your-namespace-hereArts> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Arts" ;
+    rdfs:comment "It represents a structure encompassing artistic expressions and creative activities within a culture. It may include disciplines such as painting, music, literature, and other artistic forms." .
+
+<your-namespace-hereCommunicationsInfrastructure> a <your-namespace-hereSubclasses> ;
+    rdfs:label "CommunicationsInfrastructure" ;
+    rdfs:comment "The subclass 'Data Analytic Systems' may encompass technological systems that perform data analysis and interpretation processes." .
+
+<your-namespace-hereCommunity> a <your-namespace-hereClasses> ;
+    rdfs:label "Community" .
+
+<your-namespace-hereCommunityCenters> a <your-namespace-hereSubclasses> ;
+    rdfs:label "CommunityCenters" ;
+    rdfs:comment "May encompass structures that serve a specific community and focus on various social activities." .
+
+<your-namespace-hereCulture> a <your-namespace-hereClasses> ;
+    rdfs:label "Culture" .
+
+<your-namespace-hereCultureEvents> a <your-namespace-hereSubclasses> ;
+    rdfs:label "CultureEvents" ;
+    rdfs:comment "It signifies a structure aimed at introducing a specific culture and focusing on cultural activities." .
+
+<your-namespace-hereDataAnalyticsSystems> a <your-namespace-hereSubclasses> ;
+    rdfs:label "DataAnalyticsSystems" ;
+    rdfs:comment "Includes the examination of specific situations and related concepts in the context of crime investigation and security through the utilization of data analytics systems." .
+
+<your-namespace-hereDiversity> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Diversity" ;
+    rdfs:comment "It represents a structure focused on different cultures, traditions, and values." .
+
+<your-namespace-hereEquality> a <your-namespace-hereClasses> ;
+    rdfs:label "Equality" .
+
+<your-namespace-hereHeritage> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Heritage" ;
+    rdfs:comment "Heritage refers to a structure that encapsulates and values the cultural elements carried from the past to the present within a specific culture. It may encompass traditions, rituals, handicrafts, and other cultural heritage elements." .
+
+<your-namespace-hereHistoricalArtifacts> a <your-namespace-hereSubclasses> ;
+    rdfs:label "HistoricalArtifacts" ;
+    rdfs:comment "It denotes a structure that reflects the history of a culture and encompasses significant cultural heritage. It may include ancient artifacts, museums, historical buildings, and other cultural legacies." .
+
+<your-namespace-hereInclusion> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Inclusion" ;
+    rdfs:comment "Focusing on principles that involve inclusive thinking for society and encouraging equal participation of diverse groups." .
+
+<your-namespace-hereInstitutions> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Institutions" ;
+    rdfs:comment "May encompass organizations providing community services with an official and defined structure." .
+
+<your-namespace-hereIotDevices> a <your-namespace-hereSubclasses> ;
+    rdfs:label "IotDevices" ;
+    rdfs:comment "Special situations and related concepts under examination in the context of crime investigation and security." .
+
+<your-namespace-hereIotSensors> a <your-namespace-hereSubclasses> ;
+    rdfs:label "IotSensors" ;
+    rdfs:comment "Can create a structure that intricately examines specific crimes currently under investigation." .
+
+<your-namespace-hereOrganizations> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Organizations" ;
+    rdfs:comment "Engaged in activities within a specific community and may encompass organized institutions in various fields." .
+
+<your-namespace-hereRezident> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Rezident" ;
+    rdfs:comment "An ontology structure encompassing focused examinations on a specific settlement area or unit." .
+
+<your-namespace-hereSensors> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Sensors" ;
+    rdfs:comment "Creating a structure that emphasizes the identification and investigation process of specific crimes." .
+
+<your-namespace-hereSocialJustice> a <your-namespace-hereSubclasses> ;
+    rdfs:label "SocialJustice" ;
+    rdfs:comment "A structure that focuses on principles of social justice such as social equality, fair opportunities, and equitable distribution of resources." .
+
+<your-namespace-hereSocialPrograms> a <your-namespace-hereSubclasses> ;
+    rdfs:label "SocialPrograms" ;
+    rdfs:comment "Special programs implemented interactively within the community, focusing on areas such as social services, assistance, or development." .
+
+<your-namespace-hereTechnology> a <your-namespace-hereClasses> ;
+    rdfs:label "Technology" .
+
+<your-namespace-hereTraditions> a <your-namespace-hereSubclasses> ;
+    rdfs:label "Traditions" ;
+    rdfs:comment "It signifies a structure that involves the transmission of specific cultural practices from the past to the present. It includes traditional rituals, ceremonies, and other cultural practices." .
+

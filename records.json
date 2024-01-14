@@ -1,0 +1,340 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Classes"
+      ],
+      "properties": {
+        "name": "Equality",
+        "description": "Represents the concept of equality and fairness in various contexts."
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Classes"
+      ],
+      "properties": {
+        "name": "Technology",
+        "description": "Encompasses various technological advancements and innovations."
+      },
+      "elementId": "1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Classes"
+      ],
+      "properties": {
+        "name": "Community",
+        "description": "Represents the idea of a community, a group of individuals living together."
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Classes"
+      ],
+      "properties": {
+        "name": "Culture",
+        "description": "Encompasses the cultural aspects and traditions of a society."
+      },
+      "elementId": "3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Social Justice",
+        "description": "A structure that focuses on principles of social justice such as social equality, fair opportunities, and equitable distribution of resources."
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Inclusion",
+        "description": "Focusing on principles that involve inclusive thinking for society and encouraging equal participation of diverse groups."
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Accessibility",
+        "description": "A structure emphasizing equal and accessible access to diverse resources."
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Sensors",
+        "description": "Creating a structure that emphasizes the identification and investigation process of specific crimes."
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Iot Devices",
+        "description": "Special situations and related concepts under examination in the context of crime investigation and security."
+      },
+      "elementId": "8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Communications Infrastructure",
+        "description": "The subclass \"Data Analytic Systems\" may encompass technological systems that perform data analysis and interpretation processes."
+      },
+      "elementId": "9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Rezident",
+        "description": "An ontology structure encompassing focused examinations on a specific settlement area or unit."
+      },
+      "elementId": "10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Organizations",
+        "description": "Engaged in activities within a specific community and may encompass organized institutions in various fields."
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Institutions",
+        "description": "May encompass organizations providing community services with an official and defined structure."
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Diversity",
+        "description": "It represents a structure focused on different cultures, traditions, and values."
+      },
+      "elementId": "13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Traditions",
+        "description": "It signifies a structure that involves the transmission of specific cultural practices from the past to the present. It includes traditional rituals, ceremonies, and other cultural practices."
+      },
+      "elementId": "14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Arts",
+        "description": "It represents a structure encompassing artistic expressions and creative activities within a culture. It may include disciplines such as painting, music, literature, and other artistic forms."
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Subclasses"
+      ],
+      "properties": {
+        "name": "Heritage",
+        "description": "Heritage refers to a structure that encapsulates and values the cultural elements carried from the past to the present within a specific culture. It may encompass traditions, rituals, handicrafts, and other cultural heritage elements."
+      },
+      "elementId": "16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Subclasses_1"
+      ],
+      "properties": {
+        "name": "Iot Sensors",
+        "description": "Can create a structure that intricately examines specific crimes currently under investigation."
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Subclasses_1"
+      ],
+      "properties": {
+        "name": "Data Analytics Systems",
+        "description": "Includes the examination of specific situations and related concepts in the context of crime investigation and security through the utilization of data analytics systems."
+      },
+      "elementId": "18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Subclasses_1"
+      ],
+      "properties": {
+        "name": "Social Programs",
+        "description": "Special programs implemented interactively within the community, focusing on areas such as social services, assistance, or development."
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Subclasses_1"
+      ],
+      "properties": {
+        "name": "Community Centers",
+        "description": "May encompass structures that serve a specific community and focus on various social activities."
+      },
+      "elementId": "20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Subclasses_1"
+      ],
+      "properties": {
+        "name": "Culture Events",
+        "description": "It signifies a structure aimed at introducing a specific culture and focusing on cultural activities."
+      },
+      "elementId": "21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Subclasses_1"
+      ],
+      "properties": {
+        "name": "Historical Artifacts",
+        "description": "It denotes a structure that reflects the history of a culture and encompasses significant cultural heritage. It may include ancient artifacts, museums, historical buildings, and other cultural legacies."
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Classes"
+      ],
+      "properties": {
+        "name": "Culturel&Equality",
+        "description": "Represents the combined concept of Culture and Equality in various contexts."
+      },
+      "elementId": "23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Property"
+      ],
+      "properties": {
+        "name": "hasProperty",
+        "value": "https://link.springer.com/chapter/10.1007/978-3-030-19835-0_4"
+      },
+      "elementId": "24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Property"
+      ],
+      "properties": {
+        "name": "hasChainedProperty",
+        "value": "https://en.wikipedia.org/wiki/Sensor"
+      },
+      "elementId": "25"
+    }
+  }
+]

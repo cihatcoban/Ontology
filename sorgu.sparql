@@ -1,0 +1,53 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+  ?subclass rdf:typerdfs:subClassOf ?superclass .
+  ?individual rdf:type ?class .
+  ?class ?property ?value .
+  ?sensor :Smart_City_Tech:hasChainedProperty ?chainedProperty .
+}
+WHERE {
+  {
+    SELECT ?subclass ?superclass
+    WHERE {
+      ?subclass rdf:type/rdfs:subClassOf ?superclass .
+    }
+  }
+  UNION
+  {
+    SELECT ?individual ?property ?value
+    WHERE {
+      ?individual rdf:type ?class .
+      ?class ?property ?value .
+    }
+  }
+  UNION
+  {
+    SELECT ?sensor ?chainedProperty
+    WHERE {
+      ?sensor :Smart_City_Tech/:hasChainedProperty ?chainedProperty .
+    }
+  }
+}
+
+# Ek sorguları buraya ekleyebilirsiniz, örneğin:
+# UNION
+# {
+#   SELECT ?individual
+#   WHERE {
+#     ?individual rdf:type :Classes .
+#     ?individual :hasProperty 'example_value' .
+#   }
+# }
+# UNION
+# {
+#   SELECT ?class1 ?class2
+#   WHERE {
+#     ?individual1 rdf:type ?class1 .
+#     ?individual2 rdf:type ?class2 .
+#     ?individual1 :hasProperty ?value .
+#     ?individual2 :hasProperty ?value .
+#   }
+# }
