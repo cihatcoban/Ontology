@@ -1,4 +1,4 @@
-<img src="https://github.com/cihatcoban/Ontology/blob/main/graph.png" width="auto">
+<img src="[https://github.com/cihatcoban/Ontology/blob/main/graph.png](https://github.com/cihatcoban/Ontology/blob/main/graph.svg)" width="auto">
 			CULTURE AND EQUALİTY ONTOLOGY
 Creating a culture and equality ontology for a smart city involves defining key concepts, relationships, and entities that are relevant to promoting a diverse, inclusive, and culturally rich urban environment. Ontologies are structured frameworks that help organize knowledge and facilitate communication between systems. Here's a basic outline for a culture and equality ontology in the context of a smart city:
 
